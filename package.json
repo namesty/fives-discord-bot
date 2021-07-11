@@ -1,0 +1,27 @@
+{
+    "name": "fives-discord-bot",
+    "version": "1.0.0",
+    "description": "Discord bot to organize LoL caimanas",
+    "main": "src/app.js",
+    "scripts": {
+      "start": "ts-node src/index.ts",
+      "dev": "nodemon",
+      "test": "jest"
+    },
+    "author": "namesty",
+    "license": "ISC",
+    "dependencies": {
+      "dotenv": "^8.2.0",
+      "discord.js": "12.5.3",
+      "ts-node": "10.1.0"
+    },
+    "devDependencies": {
+      "jest": "^26.2.2",
+      "nodemon": "2.0.12",
+      "ts-jest": "^26.1.4",
+      "ts-node": "^8.10.2",
+      "typescript": "^3.9.7",
+      "@types/jest": "^26.0.8",
+      "@types/node": "^14.0.27"
+    }
+  }
